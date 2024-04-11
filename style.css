@@ -1,0 +1,69 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+h1 {
+    margin-left: 45px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+}
+
+.imgBox {
+    margin: 2px;
+}
+
+.imgBox img {
+    width: 450px;
+    height: auto;
+    cursor: pointer;
+    display: block;
+}
+
+.imgBox:hover img {
+    filter: brightness(70%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.blackbox {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xImg {
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.arrow {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    position: relative;
+    margin: 20px;
+    cursor: pointer;
+}
